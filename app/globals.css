@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.navbar {
+  @apply bg-white p-[20px];
+}
+
+.link {
+  @apply mr-[10px] no-underline text-black;
+}
+
+.title {
+  @apply text-center mt-[50px] mb-[30px];
+}
+
+.list {
+  @apply my-[20px] mx-auto bg-white text-black p-[20px] rounded-md w-[200px];
+}
+
+.cart-item {
+  @apply p-10 flex justify-around border-b-[1px] border-gray-500 leading-none;
+}
